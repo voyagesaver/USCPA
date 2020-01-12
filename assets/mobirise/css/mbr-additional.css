@@ -1459,7 +1459,7 @@ section.lazy-placeholder:after {
   width: 35px;
   height: 3px;
   display: inline-block;
-  background: #149dcc;
+  background: #55b4d4;
   margin-bottom: 1.5rem;
   transition: background 0.3s;
 }
@@ -1538,7 +1538,7 @@ section.lazy-placeholder:after {
   outline: none;
 }
 .cid-rNknvXC6Ix .nav-link.active {
-  background: #149dcc;
+  background: #55b4d4;
 }
 .cid-rNknvXC6Ix .nav-link {
   background: white;
@@ -1550,7 +1550,7 @@ section.lazy-placeholder:after {
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
 }
 .cid-rNknvXC6Ix .nav-link:hover {
-  background: #149dcc;
+  background: #55b4d4;
 }
 .cid-rNknvXC6Ix .nav-tabs {
   -webkit-flex-wrap: wrap;
