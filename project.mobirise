@@ -58,7 +58,13 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "pwa-switcher": false
+    "pwa-switcher": true,
+    "PWA": {
+      "enabled": false,
+      "name": "ABCPA",
+      "icon": "@ADDONS_PATH@/pwa-builder/assets/icons/512x512.png",
+      "themeColor": "#fd5e30"
+    }
   },
   "pages": {
     "index.html": {
