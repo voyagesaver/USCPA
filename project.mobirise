@@ -60,9 +60,9 @@
     "gdpr": false,
     "pwa-switcher": true,
     "PWA": {
-      "enabled": false,
+      "enabled": true,
       "name": "ABCPA",
-      "icon": "@ADDONS_PATH@/pwa-builder/assets/icons/512x512.png",
+      "icon": "@PROJECT_PATH@/assets/images/1f3f5-512x512.png",
       "themeColor": "#fd5e30"
     }
   },
