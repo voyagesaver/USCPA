@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ABCPA",
-    "currentPage": "index.html",
+    "currentPage": "aboutus.html",
     "theme": {
       "name": "politicsm4",
       "title": "PoliticsM4",
@@ -44,7 +44,7 @@
         "url": "https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
       }
     ],
-    "uniqCompNum": 96,
+    "uniqCompNum": 127,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -3230,6 +3230,98 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "!isAMP",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card": {
+              "padding": "1rem"
+            },
+            ".card-title": {
+              "padding": ".5rem 1rem .5rem 6.5rem",
+              "margin-left": "-2rem",
+              "margin-bottom": "0",
+              "background": "linear-gradient(90deg, @headerColor1, @headerColor2)",
+              "border-top-right-radius": ".25rem",
+              "border-bottom-right-radius": ".25rem"
+            },
+            ".card-header": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "background": "none",
+              "padding": "0",
+              "border": "none",
+              "padding-bottom": "2rem"
+            },
+            ".card-img": {
+              "position": "absolute",
+              "width": "60px",
+              "height": "60px",
+              "overflow": "hidden",
+              "border-radius": "50%",
+              "background": "#ffffff",
+              "display": "flex",
+              "img": {
+                "width": "100%",
+                "min-width": "100%",
+                "min-height": "100%"
+              }
+            },
+            ".card-sign": {
+              "padding-top": ".5rem"
+            },
+            ".underline": {
+              ".line": {
+                "width": "5rem",
+                "height": "1px",
+                "background": "currentColor",
+                "display": "inline-block"
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-left": "0"
+            },
+            "@media (max-width: 767px)": {
+              ".card-title": {
+                "text-align": "center"
+              },
+              "p.mbr-text,p.date": {
+                "text-align": "center"
+              }
+            },
+            ".card-box": {
+              "background": "@cardBg",
+              "padding": "2rem 2rem",
+              "-webkit-box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
+              "box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
+              "border-radius": ".25rem"
+            },
+            ".card-text, .mbr-subtitle": {
+              "color": "#8d97ad"
+            },
+            ".card-sign,.underline": {
+              "color": "#363636"
+            }
+          },
+          "_name": "extTestimonials2",
+          "_customHTML": "<section class=\"extTestimonials\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\"> \n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show SubTitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Desk\" name=\"showDesk\" checked>\n        <input type=\"checkbox\" title=\"Show Line\" name=\"showLine\" checked condition=\"showDesk\">\n        <input type=\"color\" title=\"Card Bg\" name=\"cardBg\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n        <input type=\"color\" title=\"Header Color1\" name=\"headerColor1\" value=\"#55b4d4\">\n        <input type=\"color\" title=\"Header Color2\" name=\"headerColor2\" value=\"#fd5e30\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/iM-NestDPNQ\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-fonts-style mb-3 align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">What Our Clients Say</h2>\n        <h3 class=\"mbr-text mbr-subtitle mbr-fonts-style mbr-light align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-subtitle\">\n            Lorem Ipsum dolor sit amet, consectetur adipisicing elit.\n        </h3>\n        <div class=\"row justify-content-center\" mbr-class=\"{'pt-2':showTitle||showSubtitle}\">\n            <div class=\"card col-12 col-md-6\">\n                <div class=\"card-box\">\n                    <div class=\"card-header\">\n                        <div class=\"card-img\">\n                            <img src=\"@PROJECT_PATH@/assets/images/19-3-263x300.jpeg\" alt=\"Mobirise\" title>\n                        </div>\n                        <h4 class=\"card-title mbr-fonts-style align-center mb-0 mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title, .card-img\">Bakary Kouma</h4>\n                    </div>\n                    <p class=\"mbr-text card-text mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-7\" data-app-selector=\".card-text\">\n                        Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate est eveniet.\n                    </p>\n                    <div class=\"underline align-left\" mbr-if=\"showDesk&&showLine\">\n                         <div class=\"line\"></div>\n                    </div>\n                    <p class=\"mbr-text card-sign mbr-fonts-style align-left mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showDesk\" data-app-selector=\".card-sign,.underline\"><b>\n                        Senior Consultant\n                    </b></p>\n                </div>\n            </div>\n\n\n            <div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-box\">\n                    <div class=\"card-header\">\n                        <div class=\"card-img\">\n                            <img src=\"@PROJECT_PATH@/assets/images/hope-17-280x320.jpeg\" alt=\"Mobirise\" title>\n                        </div>\n                        <h4 class=\"card-title mbr-fonts-style align-center mb-0 mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title, .card-img\">Mary Page</h4>\n                    </div>\n                    <p class=\"mbr-text card-text mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-7\" data-app-selector=\".card-text\">\n                        Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate est eveniet.\n                    </p>\n                    <div class=\"underline align-left\" mbr-if=\"showDesk&&showLine\">\n                         <div class=\"line\"></div>\n                    </div>\n                    <p class=\"mbr-text card-sign mbr-fonts-style align-left mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showDesk\" data-app-selector=\".card-sign,.underline\"><b>\n                        Client Support\n                    </b></p>\n                </div>\n            </div>\n\n\n        </div>\n    </div>\n</section>",
+          "_cid": "rOWcpNKpks",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "extTestimonials2-3h"
         },
         {
           "alias": false,
