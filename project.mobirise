@@ -45,7 +45,7 @@
         "url": "https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
       }
     ],
-    "uniqCompNum": 134,
+    "uniqCompNum": 135,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -833,17 +833,18 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<div id=\"translator_580\"><noscript>Javascript is disable - &amp;lt;a href=\"http://www.webestools.com/\"&amp;gt;http://www.webestools.com/&amp;lt;/a&amp;gt; - &amp;lt;a href=\"http://www.webestools.com/translator-buttons-web-page-translation-google-translate-website-widget-online-html-translator.html\"&amp;gt;Translation Buttons Generator&amp;lt;/a&amp;gt;</noscript></div>[JS_CODE_0]",
+          "_customHTML": "<!-- Begin Translation Button -->\n[JS_CODE_0]\n<div class=\"translate\">\n<a title=\"Translator\" href=\"http://www.certifiedchinesetranslation.com/button.html\"><font color=\"#000000\"> Translator</font></a>\n<a class=\"translate_no_drop\" title=\"Spanish\" href=\"http://www.certifiedchinesetranslation.com/Spanish/\"><span class=\"translate_image_spanish\">Spanish</span></a>\n<a class=\"translate_no_drop\" title=\"French\" href=\"http://www.certifiedchinesetranslation.com/French/\"><span class=\"translate_image_french\">French</span></a>\n</div>\n[JS_CODE_1]\n<!-- End Translation Button -->\n",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
             "Extension"
           ],
           "_name": "pro.custom-html",
-          "_anchor": "custom-html-3p",
+          "_anchor": "custom-html-3q",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"http://services.webestools.com/translator/580-4-yynynnnnn.js\"></script>"
+            "<script type=\"text/javascript\"> var translate_src = 'en';</script>",
+            "<script type=\"text/javascript\" src=\"http://www.certifiedchinesetranslation.com/translate.js\"></script>"
           ]
         },
         {
