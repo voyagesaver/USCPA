@@ -45,7 +45,7 @@
         "url": "https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
       }
     ],
-    "uniqCompNum": 133,
+    "uniqCompNum": 134,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -833,17 +833,17 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<a href=\"http://free-website-translation.com/\" id=\"ftwtranslation_button\" hreflang=\"en\" title=\"\" style=\"border:0;\"><img src=\"http://free-website-translation.com/img/fwt_button_en.gif\" id=\"ftwtranslation_image\" alt=\"Free Website Translator\" style=\"border:0;\"></a> [JS_CODE_0]",
+          "_customHTML": "<div id=\"translator_580\"><noscript>Javascript is disable - &amp;lt;a href=\"http://www.webestools.com/\"&amp;gt;http://www.webestools.com/&amp;lt;/a&amp;gt; - &amp;lt;a href=\"http://www.webestools.com/translator-buttons-web-page-translation-google-translate-website-widget-online-html-translator.html\"&amp;gt;Translation Buttons Generator&amp;lt;/a&amp;gt;</noscript></div>[JS_CODE_0]",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
             "Extension"
           ],
           "_name": "pro.custom-html",
-          "_anchor": "custom-html-3o",
+          "_anchor": "custom-html-3p",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"http://free-website-translation.com/scripts/fwt.js\"></script>"
+            "<script type=\"text/javascript\" src=\"http://services.webestools.com/translator/580-4-yynynnnnn.js\"></script>"
           ]
         },
         {
