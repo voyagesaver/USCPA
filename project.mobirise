@@ -1119,7 +1119,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-9-1920x1280.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -1134,50 +1134,11 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "WELCOME TO ABCPA<br><br>Please feel free to contact us to Speak with a CPA Today!<br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"contactus.html\" data-toolbar=\"-mbrBtnMove\">BOOK STRATEGY</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"contactus.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a> <a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://pcopartners.as.me/Free-Consultation\" data-toolbar=\"-mbrBtnMove\">FREE CONSULTATION</a> "
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-10-1920x1280.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "customStyle3": "display-7",
-                "alt": "",
-                "title": "",
-                "textTitle": "<br>TAX &amp; LEGAL",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "Maximize your profits and minimize your tax liability",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-7 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"pcopartnerstaxandlegal.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a> <a data-app-btn=\"true\" class=\"btn  display-7 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://pcopartners.as.me/Free-Consultation\" data-toolbar=\"-mbrBtnMove\">BOOK STRATEGY</a> "
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-11-1920x1280.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "customStyle3": "display-7",
-                "alt": "",
-                "title": "",
-                "textTitle": "<br>AUDIT &amp; ASSURANCES",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "Are your financial statements free from error, frauds or material misstatement?",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-7 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"pcopartnersauditandassurances.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a> <a data-app-btn=\"true\" class=\"btn  display-7 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://pcopartners.as.me/Free-Consultation\" data-toolbar=\"-mbrBtnMove\">BOOK STRATEGY</a>",
-                "overlayOpacity": "0.7"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-17-1920x1280.jpg",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/mbr-17-1920x1280.jpeg",
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": false,
@@ -1192,13 +1153,14 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "For small business owners, The CPA is more than an accountant.<br>he is their most trusted financial advisor.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  display-7 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://pcopartners.as.me/Free-Consultation\" data-toolbar=\"-mbrBtnMove\">BOOK STRATEGY</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-7 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"contactus.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a> <a data-app-btn=\"true\" class=\"btn  display-7 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://pcopartners.as.me/Free-Consultation\" data-toolbar=\"-mbrBtnMove\">FREE CONSULTATION</a> ",
+                "overlayOpacity": "0.4"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-2-1920x1280.jpg",
                 "active": false,
-                "showButtons": false,
-                "showText": false,
+                "showButtons": true,
+                "showText": true,
                 "showTitle": false,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1208,10 +1170,11 @@
                 "alt": "",
                 "title": "",
                 "textTitle": "<br>ACCOUNTING",
-                "overlay": false,
+                "overlay": true,
                 "contentAlign": "center",
-                "text": "We are pretty good with numbers. We’ll handle all your accounting needs, so you can focus on growing your business.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-7 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"pcopartnersaccounting.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a> <a data-app-btn=\"true\" class=\"btn  display-7 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://pcopartners.as.me/Free-Consultation\" data-toolbar=\"-mbrBtnMove\">BOOK STRATEGY</a>"
+                "text": "For small business owners, The CPA is more than an accountant.\n<br>he is their most trusted financial advisor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-7 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"contactus.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a> <a data-app-btn=\"true\" class=\"btn  display-7 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://pcopartners.as.me/Free-Consultation\" data-toolbar=\"-mbrBtnMove\">FREE CONSULTATION</a>",
+                "overlayOpacity": "0.4"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1285.jpeg",
@@ -1229,8 +1192,8 @@
                 "textTitle": "<br>GET YOUR FREE CONSULTATION",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "<b><br></b><b>GET YOUR FREE CONSULTATION</b>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-7 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"contactus.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a> <a data-app-btn=\"true\" class=\"btn  display-7 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://pcopartners.as.me/Free-Consultation\" data-toolbar=\"-mbrBtnMove\">BOOK STRATEGY</a>"
+                "text": "<b>GET YOUR FREE CONSULTATION</b>",
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  display-7 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"contactus.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a> <a data-app-btn=\"true\" class=\"btn  display-7 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://pcopartners.as.me/Free-Consultation\" data-toolbar=\"-mbrBtnMove\">FREE CONSULTATION</a>"
               }
             ]
           }
