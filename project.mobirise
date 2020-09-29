@@ -1172,7 +1172,7 @@
                 "textTitle": "<br>ACCOUNTING",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "For small business owners, The CPA is more than an accountant.\n<br>he is their most trusted financial advisor.",
+                "text": "",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-7 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"contactus.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a> <a data-app-btn=\"true\" class=\"btn  display-7 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://pcopartners.as.me/Free-Consultation\" data-toolbar=\"-mbrBtnMove\">FREE CONSULTATION</a>",
                 "overlayOpacity": "0.4"
               },
