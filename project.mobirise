@@ -1100,7 +1100,7 @@
               "color": "#ffffff"
             }
           },
-          "_customHTML": "<section class=\"header7 carousel slide\" group=\"Sliders & Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t    <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n         <input type=\"range\" title=\"Carousel Height\" name=\"carouselHeight\" min=\"500\" max=\"1000\" value=\"680\" step=\"10\" inline>\n         <header>Carousel Settings</header>\n        <input type=\"carousel\" title=\"Slides\" name=\"slides\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-carousel=\"slides\" mbr-carousel-embedded mbr-class=\"{'full-screen' : fullScreen}\"></div>\n\n</section>",
+          "_customHTML": "<section class=\"header7 carousel slide\" group=\"Sliders & Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t    <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n         <input type=\"range\" title=\"Carousel Height\" name=\"carouselHeight\" min=\"500\" max=\"1000\" value=\"520\" step=\"10\" inline>\n         <header>Carousel Settings</header>\n        <input type=\"carousel\" title=\"Slides\" name=\"slides\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-carousel=\"slides\" mbr-carousel-embedded mbr-class=\"{'full-screen' : fullScreen}\"></div>\n\n</section>",
           "_anchor": "header7-45",
           "_isUserblock": true,
           "_sourceTheme": "marketm4",
@@ -1120,7 +1120,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1-1920x1210.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -1134,11 +1134,11 @@
                 "textTitle": "<br><br>TRUSTED &amp; RELIABLE",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "WELCOME TO AB CPA Tax &amp; Advisory<br><br>Please feel free to contact us to Speak with a CPA Today!<br>",
+                "text": "WELCOME TO AB CPA Tax &amp; Advisory<br><br>Don't a Penny More in Taxes Than You Have to!",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"contactus.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a> <a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://pcopartners.as.me/Free-Consultation\" data-toolbar=\"-mbrBtnMove\">BOOK STRATEGY</a> "
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-17-1920x1280.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-18-1920x1280.jpeg",
                 "active": false,
                 "showButtons": true,
                 "showText": true,
@@ -1178,7 +1178,7 @@
                 "overlayOpacity": "0.4"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-14-1920x1280.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-14-1920x1280.jpeg",
                 "active": false,
                 "showButtons": true,
                 "showText": true,
@@ -1197,8 +1197,8 @@
                 "buttons": " <a data-app-btn=\"true\" class=\"btn  display-7 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"contactus.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a> <a data-app-btn=\"true\" class=\"btn  display-7 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://pcopartners.as.me/Free-Consultation\" data-toolbar=\"-mbrBtnMove\">BOOK STRATEGY</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1279.jpg",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-1920x1279.jpeg",
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": false,

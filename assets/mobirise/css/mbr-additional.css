@@ -1424,7 +1424,7 @@ section.lazy-placeholder:after {
 }
 .cid-sc1gUfGyzl .container img {
   width: 100%;
-  height: 680px;
+  height: 520px;
   object-fit: cover;
 }
 .cid-sc1gUfGyzl .container img + .row {
@@ -1465,7 +1465,7 @@ section.lazy-placeholder:after {
   min-width: 100%;
   min-height: 100vh;
   padding: 0;
-  height: 680px;
+  height: 520px;
 }
 .cid-sc1gUfGyzl .carousel-item {
   background-position: 50% 50%;
