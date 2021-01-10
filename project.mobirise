@@ -46,7 +46,7 @@
       }
     ],
     "uniqCompNum": 153,
-    "versionPublish": "5.2.0",
+    "versionPublish": "5.2.1",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-cpa-11-128x70.png",
     "noImageResize": null,
@@ -67,7 +67,8 @@
       "themeColor": "#fd5e30"
     },
     "imageResize": true,
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "chatbutton": {}
   },
   "pages": {
     "index.html": {
